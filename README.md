@@ -4,6 +4,11 @@
 
 This project implements an in-memory virtual filesystem in Go that supports basic Unix-like file operations. It provides both a programmatic API and a command-line interface (CLI) for interacting with the filesystem. Operations include file and directory creation/deletion, content read/write/execution, directory listing, and path navigation (supporting both relative and absolute paths).
 
+# Demo
+A video demonstrating the virtual file system and its functionalities is available in `demo/demo.webm`.
+Same is also available below as a gif but in low quality.
+<a href="https://ibb.co/YBX99SpK"><img src="https://i.ibb.co/608hhSgp/demo-demo-1.gif" alt="demo-demo-1" border="0"></a>
+
 # Features
 
 - File and Directory Operations: Create, delete, execute, and list files/directories.
