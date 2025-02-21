@@ -29,7 +29,7 @@ This project implements an in-memory virtual filesystem in Go that supports basi
 ### 1. Build the Application:
 
 ```
-go build -o vfs vfs.go
+go build -o ./bin/vfs main.go
 ```
 
 ### 2. Run the application
@@ -37,13 +37,13 @@ go build -o vfs vfs.go
 To run the virtual file system simply run the executable built in the previous step.
 
 ```
-./vfs
+./bin/vfs
 ```
 
 To persist the file system over sessions you can provide the `--secret` flag with the correct secret for decrypting the redis connection configuration.
 
 ```
-./vfs --secret=SECRET
+./bin/vfs --secret=SECRET
 ```
 
 I opted for secret decryption instead of environment variables or similar mainly for three reasons:
